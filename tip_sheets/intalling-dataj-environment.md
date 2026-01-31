@@ -1,4 +1,4 @@
-# Installing Miniforge and Course Environment - Mac Instructions
+# Installing Miniforge and Data Journalism Environment - Mac Instructions
 
 This guide will walk you through setting up your Python environment for the Data Journalism course.
 
