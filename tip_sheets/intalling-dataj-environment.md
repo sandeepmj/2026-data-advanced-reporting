@@ -27,6 +27,7 @@ This guide will walk you through setting up your Python environment for the Data
 - Mac computer (Intel or Apple Silicon)
 - xCode Command Line Tools installed ([instructions here](https://www.freecodecamp.org/news/install-xcode-command-line-tools/))
 - The `environment.yml` file found at [this link](https://drive.google.com/file/d/1eAriTzDrTi4Ctw_NMiPbgvf8C35h0aEj/view?usp=sharing).
+- Removing Anaconda environment if you have it. Having both Anaconda and Miniforge will cause conflicts.
 
 ---
 
