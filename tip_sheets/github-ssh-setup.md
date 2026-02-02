@@ -26,14 +26,26 @@ SSH (Secure Shell) is a secure way to authenticate with GitHub without typing yo
 ls -al ~/.ssh
 ```
 
-**If you see files named:**
-- `id_rsa` and `id_rsa.pub` **OR**
-- `id_ed25519` and `id_ed25519.pub`
+**Look for SSH key pairs (files that come in pairs):**
 
+SSH keys come in pairs with the same base name:
+- Private key: filename WITHOUT extension (e.g., `id_rsa`, `id_ed25519`, `github`)
+- Public key: same filename WITH `.pub` extension (e.g., `id_rsa.pub`, `id_ed25519.pub`, `github.pub`)
+
+**Common examples:**
+- `id_rsa` and `id_rsa.pub` (older default)
+- `id_ed25519` and `id_ed25519.pub` (newer default)
+- `github` and `github.pub` (custom name)
+- Any other matching pair
+
+**What to do:**
+
+**If you see MATCHING PAIRS** (like those above):
 → **You already have SSH keys! Skip to Part 3**
 
 **If you see:**
 - `No such file or directory` → **Continue to Part 2**
+- Only `config` or `known_hosts` files (no pairs) → **Continue to Part 2**
 
 ---
 
