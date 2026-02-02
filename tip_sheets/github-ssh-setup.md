@@ -1,5 +1,15 @@
 # Setting Up SSH Keys for GitHub - Mac Instructions
 
+GitHub no longer accepts passwords for security reasons. Instead, you'll use SSH keys - a more secure way to prove your identity.
+
+SSH uses two keys that work together:
+- **Private key**: Secret file that stays on your computer only
+- **Public key**: File you share with GitHub
+
+When you try to access GitHub, these keys work like a secret handshake - GitHub checks if your keys match, and if they do, you're in! No password needed.
+
+**Security benefit**: Even if someone steals your GitHub password, they can't access your account from their computer because they don't have your private key.
+
 This guide will help you set up SSH authentication for GitHub. You'll do this **once** and never need to enter your GitHub password again when using Git.
 
 ---
