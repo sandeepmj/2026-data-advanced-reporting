@@ -205,6 +205,8 @@ source ~/.zshrc
 
 ## Part 5: Create Your Course Environment
 
+The location wehere you run the next command doesn't mean your environment is installed here. it will be created in the miniforge directory, but you do have to run the command from wherever the .yml file is downloaded. 
+
 ### Step 1: Navigate to where you saved environment.yml
 If it's in Downloads:
 ```bash
@@ -310,7 +312,7 @@ To use Jupyter for coursework:
 conda activate dataj-installs
 
 # 3. Navigate to your work folder
-cd ~/Desktop
+cd ~/dataProjects
 
 # 4. Launch Jupyter
 jupyter notebook
@@ -360,7 +362,7 @@ mamba env create -f environment.yml
 If you encounter issues not covered here:
 1. Take a screenshot of the error
 2. Note what command you ran
-3. Come to office hours or post on the course discussion board
+3. Come to office hours or post on the course Slack channel. 
 
 ---
 
