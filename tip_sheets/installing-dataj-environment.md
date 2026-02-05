@@ -178,7 +178,7 @@ which python
 ```
 
 **If you see:**
-- `python not found` or `/Users/yourname/miniforge3/...` → **You're good! Skip to Part 5**
+- `python not found` or `/Users/yourname/miniforge3/...` → **THIS IS GOOD! Skip to Part 5**
 - `python: aliased to /usr/bin/python3` → **Continue to fix it below**
 
 ### Step 2: Remove the python alias
@@ -262,6 +262,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 import plotly.express as px
+import plotly
 import matplotlib
 from openpyxl import Workbook
 
@@ -270,8 +271,8 @@ print(f"NumPy: {np.__version__}")
 print(f"Pandas: {pd.__version__}")
 print(f"Matplotlib: {matplotlib.__version__}")
 print(f"Seaborn: {sns.__version__}")
-print(f"Plotly: {px.__version__}")
-print("\n All packages loaded successfully!")
+print(f"Plotly: {plotly.__version__}")
+print("\n✅ All packages loaded successfully!")
 ```
 
 **If all packages load without errors, you're done!** 
